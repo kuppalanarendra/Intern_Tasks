@@ -3,6 +3,7 @@ package com.task1;
 import java.util.Scanner;
 
 public class Task1 {
+	  // scanner class to take user input through console
 	static Scanner sc=new Scanner(System.in);
 
 	public static void main(String[] args) {
