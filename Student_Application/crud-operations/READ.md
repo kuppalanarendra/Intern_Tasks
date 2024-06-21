@@ -24,15 +24,14 @@ This project is a Spring Boot-based Student Management System that provides func
 
 Configure your MySQL database connection in `application.properties`:
 
-```properties
+properties
 spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase?createDatabaseIfNotExist=true
 spring.datasource.username=root
 spring.datasource.password=Narendra@2000
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
-
-## Build and Running the Application
+## MySQL Database Configuration
 * To build and run the application, follow these steps:
 * 1.Ensure you have Maven, Java, and MySQL installed on your system.
 * 2.Clone the repository to your local machine: git clone https://github.com/Kuppala- 
@@ -49,3 +48,23 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
  * GET /students/{id}: Retrieve a student by ID
  * PUT /students/{id}: Update a student by ID
  * DELETE /students/{id}: Delete a student by ID
+ * Access the API documentation using Swagger UI at: http://localhost:8080/swagger- 
+   ui.html
+
+## Testing the Application
+  You can test the application using tools like Postman or cURL. Ensure you have valid 
+  JSON payloads for POST and PUT requests.
+
+## Contributing
+Contributions to the project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+  This project is licensed under the MIT License.
+  
+## Author
+Your Name:K.Narendra
+
+## Acknowledgments
+  * Special thanks to the Spring Boot community for their excellent documentation and 
+  support.
+  * Special thanks to Jeev Lifeworks for giving this project for me.
