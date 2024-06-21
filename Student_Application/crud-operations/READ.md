@@ -24,7 +24,7 @@ This project is a Spring Boot-based Student Management System that provides func
 
 Configure your MySQL database connection in `application.properties`:
 
-properties
+``properties
 spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase?createDatabaseIfNotExist=true
 spring.datasource.username=root
 spring.datasource.password=Narendra@2000
@@ -34,11 +34,11 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ## MySQL Database Configuration
 * To build and run the application, follow these steps:
 * 1.Ensure you have Maven, Java, and MySQL installed on your system.
-* 2.Clone the repository to your local machine: git clone https://github.com/Kuppala- 
-   Shyam/InternshipTasks.git
-* 3.Navigate to the project directory: cd Student_Application
-* 4.Configure your MySQL database connection in the application.properties file
-* 5.Build the application using Maven: mvn clean package
+* 2.Clone the repository to your local machine: git clone 
+  https://github.com/kuppalanarendra/Intern_Tasks.git
+* 3.Navigate to the project directory: cd Student_Application.
+* 4.Configure your MySQL database connection in the application.properties file.
+* 5.Build the application using Maven: mvn clean package.
 * 6.Run the application: java -jar target/Account-service-0.0.1-SNAPSHOT.jar
 
 ## API Documentation
