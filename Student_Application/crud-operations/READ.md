@@ -39,7 +39,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 * 3.Navigate to the project directory: cd Student_Application.
 * 4.Configure your MySQL database connection in the application.properties file.
 * 5.Build the application using Maven: mvn clean package.
-* 6.Run the application: java -jar target/Account-service-0.0.1-SNAPSHOT.jar
+* 6.Run the application: java -jar crud-operations-0.0.1-SNAPSHOT.jar
 
 ## API Documentation
 ### API Endpoints
