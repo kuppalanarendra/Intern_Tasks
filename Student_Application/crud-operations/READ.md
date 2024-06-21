@@ -6,8 +6,10 @@ This project is a Spring Boot-based Student Management System that provides func
 
 # Features
 
-* Crud Operations
+## Crud Operations
 * Create
 * Read
 * Update
-*   Delete student records.
+* Delete student records.
+
+# Components
