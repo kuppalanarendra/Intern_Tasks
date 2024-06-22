@@ -28,12 +28,12 @@ This project is a Spring Boot-based Student Management System that provides func
 
 Configure your MySQL database connection in `application.properties`:
 
-``properties
-spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase?createDatabaseIfNotExist=true
-spring.datasource.username=root
-spring.datasource.password=Narendra@2000
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+properties
+spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase?createDatabaseIfNotExist=true.
+spring.datasource.username=root.
+spring.datasource.password=Narendra@2000.
+spring.jpa.hibernate.ddl-auto=update.
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect...
 
 ## MySQL Database Configuration
 * To build and run the application, follow these steps:
