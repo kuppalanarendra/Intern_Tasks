@@ -15,10 +15,14 @@ This project is a Spring Boot-based Student Management System that provides func
 ## Components
 ### Student Module
 
-**Student Entity**: Represents a student with attributes id, name, age, grade, and address.
+- **Student Entity**: Represents a student with attributes id, name, age, grade, and address.
 - **Student Repository**: Interface extending JpaRepository to handle CRUD operations on Student entities.
 - **Student Service**: Implements business logic methods for CRUD operations.
 - **Student Controller**: Defines RESTful endpoints for handling HTTP requests related to students.
+
+### Exception Handling
+  * Student Not Found Exception
+  * Exception Message
 
 ### MySQL Database Configuration
 
