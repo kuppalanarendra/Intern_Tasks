@@ -118,5 +118,19 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect...
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/employeedirectory.git
+   git clone https://github.com/kuppalanarendra/Intern_Tasks.git
+
+## Contributing
+Contributions to the project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+  This project is licensed under the MIT License.
+  
+## Author
+Your Name:K.Narendra
+
+## Acknowledgments
+  * Special thanks to the Spring Boot community for their excellent documentation and 
+  support.
+  * Special thanks to Jeev Lifeworks for giving this project for me.
 
