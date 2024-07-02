@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+        }
+        form label{
+            margin-bottom: 5px;
+            font-weight:500;
+            color: brown;
+        }
+        form input{
+            margin-bottom: 10px;
+            max-width: 70%;
+            height: 20px;
+            
+        }
+        form input[type="submit"]{
+            width: fit-content;
+            color: red;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" th:action="@{/account}" th:object="${accountDto}" method="post">
+        <label for="accountHolderName">Account Holder Name:</label>
+        <input type="text" name="accountHolderName" id="accountHolderName">
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" id="phone">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        
+        <label for="careOf">C/O:</label>
+        <input type="text" name="careOf" id="careOf">
+        
+        <label for="h_No">Door Number:</label>
+        <input type="text" name="h_No" id="h_No">
+        
+        <label for="village">Village:</label>
+        <input type="text" name="village" id="village">
+        
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state">
+        
+        <label for="pincode">Pin Code:</label>
+        <input type="text" name="pincode"id="pincode">
+        
+        <button type="submit">Create Account</button>
+    </form>
+</body>
+</html>
