@@ -11,6 +11,31 @@ The Employee Directory application is designed to manage employee information wi
 4. Provide endpoints to:
    - Get employees by department
    - Update an employee's salary
+   - 
+## Components
+### Employee Module
+
+- **Employee Entity**: Represents a student with attributes id, name, position, department, and salary.
+- **Employee Repository**: Interface extending JpaRepository to handle CRUD operations on Employee entities.
+- **Employee Service**: Implements business logic methods for CRUD operations and various services.
+- **Employee Controller**: Defines RESTful endpoints for handling HTTP requests related to Employee.
+
+### Exception Handling
+  * Resource Not Found Exception
+  * MethodArgumentNotValidException
+  * Exception Message
+
+### MySQL Database Configuration
+
+Configure your MySQL database connection in `application.properties`:
+
+properties
+spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase?createDatabaseIfNotExist=true.
+spring.datasource.username=root.
+spring.datasource.password=Narendra@2000.
+spring.jpa.hibernate.ddl-auto=update.
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect...
+
 
 ## Features and Logic Implementations
 
